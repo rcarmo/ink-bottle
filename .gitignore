@@ -15,8 +15,6 @@ var
 sdist
 develop-eggs
 .installed.cfg
-lib
-lib64
 
 # Installer logs
 pip-log.txt
@@ -37,3 +35,6 @@ nosetests.xml
 # Mac
 .DS_Store
 ._.DS_Store
+
+# Vagrant
+.vagrant
