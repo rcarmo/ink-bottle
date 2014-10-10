@@ -73,7 +73,7 @@
         <!-- TODO: sidebar -->
         <div id="page-content" class="ink-grid content-drawer">
             <div class="page-header">
-              <h1 class="slab">{{!headers["title"]}}</h1>
+              <h1 class="slab">{{!title}}</h1>
             </div>
             {{!base}}
         </div>
