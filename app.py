@@ -11,9 +11,9 @@ import os, sys, logging
 # Make sure our bundled libraries take precedence
 sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'lib'))
 
-import utils, bottle
+from bottle import run
 
-from config import settings
+from utils.config import settings
 
 log = logging.getLogger()
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
         import api, routes, controllers
         log.info("Serving requests.")
 
-    bottle.run(
+    run(
         port     = settings.http.port, 
         host     = settings.http.bind_address, 
         debug    = settings.debug,

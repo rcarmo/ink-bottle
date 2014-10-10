@@ -1,6 +1,7 @@
 {
     "debug": true,
     "environment": "dev",
+    "reloader": true,
     "http": {
         "bind_address": "127.0.0.1",
         "port": 8000
@@ -21,10 +22,10 @@
                 "stream"   : "ext://sys.stdout"
             },
             "ram": {
-                "class"    : "utils.InMemoryHandler",
+                "class"    : "logging.handlers.MemoryHandler",
                 "formatter": "http",
                 "level"    : "WARNING",
-                "limit"    : 200
+                "capacity" : 200
             }
         },
         "loggers": {
