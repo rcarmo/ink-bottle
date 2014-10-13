@@ -51,7 +51,7 @@
                 <strong>You are using an outdated Internet Explorer version.</strong>strong>
                 Please <a href="http://browsehappy.com/">upgrade to a modern browser</a>a> to improve your web experience.
             </p>p>
-        </div>div>
+        </div><div>
         -->
 
         <div id="topbar">
