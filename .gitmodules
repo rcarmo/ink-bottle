@@ -1,3 +1,3 @@
-[submodule "lib"]
+[submodule "lib/utils"]
 	path = lib/utils
 	url = https://github.com/rcarmo/python-utils
