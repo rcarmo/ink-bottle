@@ -11,6 +11,8 @@ A minimal skeleton for doing Bottle apps in a structured fashion (targeting Pyth
 |    +-- default.json     # main configuration file
 +-- api
 |    +-- [model].py       # RESTful routes for each model
++-- routes 
+|    +-- [kind].py        # all other routes (static, actions, etc.)
 +-- controllers
 |    +-- [behavior].py    # controllers used by routes
 +-- lib
@@ -23,7 +25,6 @@ A minimal skeleton for doing Bottle apps in a structured fashion (targeting Pyth
 |    |    +-- stringkit.py
 |    |    +-- datekit.py
 |    +-- [dependencies]   # Include ALL the dependencies locally
-+-- env                   # virtualenv for "fat" dependencies
 +-- models
 |    +-- db.py            # Base models and database setup
 |    +-- [store].py       # Other data stores (Redis, etc.)
