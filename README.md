@@ -1,7 +1,9 @@
 ink-bottle
 ==========
 
-A minimal skeleton for doing Bottle apps in a structured fashion (targeting Python 2.7 or above)
+A minimal skeleton for doing Bottle apps in a structured fashion (targeting Python 2.7 or above), meant as reference code for training sessions.
+
+Should be usable out of the box (even if it only displays one view).
 
 ## Filesystem Layout
 
@@ -42,4 +44,4 @@ A minimal skeleton for doing Bottle apps in a structured fashion (targeting Pyth
 
 ## Note
 
-Don't forget to do `git submodule init; git submodule update` when checking out the source.
+Don't forget to do `git submodule update --init` when checking out the source.
