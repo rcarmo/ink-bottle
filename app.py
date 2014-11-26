@@ -31,7 +31,7 @@ if __name__ == "__main__":
         log.info("Serving requests.")
 
     run(
-        port     = settings.http.port, 
+        port     = int(os.getenv('VCAP_APP_PORT'),settings.http.port)), 
         host     = settings.http.bind_address, 
         debug    = settings.debug,
         reloader = settings.reloader
